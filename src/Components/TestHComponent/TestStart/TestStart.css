@@ -1,0 +1,65 @@
+.teststart{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 510px;
+    left: 0;
+}
+.teststart .t-card {
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+    text-align: left;
+    height: 100%;
+}
+.teststart .col-md-10 .row {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    left: 15px;
+}
+.teststart .row .card-lg {
+    min-height: 322px;
+    padding: 30px 20px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 3px 2px -1px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 3px 2px -1px rgba(0, 0, 0, 0.09);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.teststart .col-md-10 .row .col-sm-12{
+    position: absolute;
+    top: 460px;
+}
+.teststart .col-md-10 .row .col4{
+    position: absolute;
+    top: 0;
+    width: 31%;
+}
+.teststart .col-md-10 .row .col4 .card-lg h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.teststart .col-md-10 .row .col4 .btn-link-create{
+    position: absolute;
+    bottom: 30px;
+    margin-left: 60px;
+}
+.teststart .col-md-10 .row .col4 .btn-link-create:before {
+    content: '';
+    display: inline-block;
+    width: 70%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #6FDA44;
+    position: absolute;
+    bottom: 15px;
+    left: 15%;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}

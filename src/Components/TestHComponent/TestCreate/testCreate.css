@@ -1,0 +1,109 @@
+.testcreate>.createrow {
+    position: absolute;
+    top: 100px;
+    width: 94%;
+    left: 70px;
+    text-align: left !important;
+}
+.testcreate>.createrow>.col-md-10>.test-sub {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+.testcreate>.createrow>.col-md-10>.t-card {
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+}
+.testcreate>.createrow>.col-md-10>.t-card>h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.testcreate>.createrow>.col-md-10>.t-card>.titlemb{
+    background-color: #6FDA44;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.testcreate>.createrow>.col-md-10>.t-card>.t-card-row {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.testcreate>.createrow>.col-md-10>.t-card> .desselect >.deselect-btns {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.testcreate>.createrow>.col-md-10>.t-card>.desselect>.deselect-btns>.btn {
+    padding: 0;
+    font-size: 13px;
+}
+.list-item {
+    position: relative;
+    padding-left: 46px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #fff;
+}
+.list-item>label{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+.list-btn {
+    /* display: inline-block; */
+    padding: 0px 6px;
+    color: #222;
+    position: absolute;
+    left: 12px;
+    top: 3px;
+}
+.t-card_footer {
+    padding: 0px 20px 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.11);
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.btn-cancel {
+    background: transparent;
+    color: #ff3838;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.list-item> .control-checkbox>input{
+    width: 17px;
+    height: 17px;
+}
+.radio-box>.control-radio>input{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px 0 -25px;
+}
